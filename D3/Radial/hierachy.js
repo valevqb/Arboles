@@ -25,8 +25,6 @@ function tree() {
   
   //  assigns the data to a hierarchy using parent-child relationships
   var nodes = d3.hierarchy(treeData, function(d) {
-    if (d.HS2 == "Live animals");
-      console.log(d);
     return d.children;
     });
   
@@ -85,12 +83,43 @@ function tree() {
   node.append("circle")
     .attr("r", d => d.data.value)
     .style("stroke", d => d.data.type)
-    .style("fill", d => d.data.level);
+    .style("fill", d => d.data.level)
+    .on('mouseover', function (d, i) {
+      console.log(d.data.name)
+      svg.append("g")
+        .attr('id', 'this')
+        .append('rect')
+        .attr('x',d.data.x)
+        .attr('y', d.y)
+        .attr('width', 0)
+        .attr('height', 0)
+        .style('fill', 'black')
+        .attr('stroke', "black")
+
+        svg.select("#this")
+        .append("text")
+        .text( "Nombre")
+        .attr("x", d.x)
+        .attr("y",d.y)
+        .attr("font-family", "sans-serif")
+        .attr("font-size","15px")
+        .attr("fill", "#black");
+
+      d3.select(this).transition()
+        .duration('1')
+        .attr('opacity', '.85')})
+
+    .on('mouseout', function (d, i) {
+      svg.selectAll("#this")
+      .remove();
+      d3.select(this).transition()
+        .duration('1')
+        .attr('opacity', '1')})
     
   // agrega el texto
   node.append("text")
-    .attr("dx", d => { return d.x < Math.PI ? 8 : -8; })
-    .attr("dy", ".31em")
+    .attr("dx", d => { return d.x < Math.PI ? 12 : -12; })
+    .attr("dy", ".28em")
     .attr("text-anchor", d => { 
         return d.x < Math.PI ? "start" : "end"; 
     })
