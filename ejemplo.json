@@ -58,7 +58,21 @@
       "name": "Abel",
       "value": 10,
       "type": "grey",
-      "level": "blue"
+      "level": "blue",
+      "children": [        
+        {
+          "name": "Ester",
+          "value": 7.5,
+          "type": "grey",
+          "level": "blue"
+        },
+        {
+          "name": "Noe",
+          "value": 7.5,
+          "type": "grey",
+          "level": "blue"
+        }
+      ]
     },
     {
       "name": "Awan",
