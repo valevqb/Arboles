@@ -8,7 +8,15 @@
       "name": "Cain",
       "value": 10,
       "type": "grey",
-      "level": "red"
+      "level": "red",
+      "children": [
+        {
+          "name": "Thanos",
+          "value": 7.5,
+          "type": "grey",
+          "level": "purple"
+        }
+      ]
     },
     {
       "name": "Seth",
@@ -58,21 +66,7 @@
       "name": "Abel",
       "value": 10,
       "type": "grey",
-      "level": "blue",
-      "children": [        
-        {
-          "name": "Ester",
-          "value": 7.5,
-          "type": "grey",
-          "level": "blue"
-        },
-        {
-          "name": "Noe",
-          "value": 7.5,
-          "type": "grey",
-          "level": "blue"
-        }
-      ]
+      "level": "blue"
     },
     {
       "name": "Awan",
