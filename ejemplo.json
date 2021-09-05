@@ -94,7 +94,15 @@
       "name": "Azura",
       "value": 10,
       "type": "grey",
-      "level": "green"
+      "level": "green",
+      "children": [
+        {
+          "name": "Kiara",
+          "value": 7.5,
+          "type": "grey",
+          "level": "purple"
+        }
+      ]
     },
     {
       "name": "Marta",
