@@ -6,8 +6,8 @@ function tree() {
   
   // Configuración
   const margin = {top: 10, right: 10, bottom: 10, left: 10},
-        width  = 1000 - margin.left - margin.right,
-        height = 1000 - margin.top - margin.bottom;
+        width  = 11000 - margin.left - margin.right,
+        height = 11000 - margin.top - margin.bottom;
 
   const diameter = height * 0.75;
   const radius = diameter / 2;
@@ -18,8 +18,9 @@ function tree() {
     .separation(function(a, b) { 
       return (a.parent == b.parent ? 1 : 2) / a.depth; 
   });
-  
-  d3.json("https://raw.githubusercontent.com/valevqb/Arboles/main/ejemplo.json").then(function(treeData) {
+
+  d3.json("https://raw.githubusercontent.com/valevqb/Arboles/main/D3/Exportations.json").then(function(treeData) {
+  //d3.json("https://raw.githubusercontent.com/valevqb/Arboles/main/ejemplo.json").then(function(treeData) {
 
   //console.log(d3.csv("https://raw.githubusercontent.com/valevqb/Arboles/main/Exports-2019---Click-to-Select-a-Product.csv"));
   
@@ -54,7 +55,7 @@ function tree() {
     .data( nodes.descendants().slice(1))
     .enter().append("line")
     .attr("class", "link")
-    .style("stroke", d => d.data.level)
+    .style("stroke", "black")
     //define el path que sigue la figura
     .attr("x1", function(d) { return radialPoint(d.x,d.y)[0]; })
       .attr("y1", function(d) { return radialPoint(d.x,d.y)[1]; })
@@ -65,7 +66,6 @@ function tree() {
     se verá el relleno de la figura.
     Se puede utilizar color rgb, rgba y exadecimal. Tambien utilizar funciones que den
     escalas de colores*/
-    .attr("fill", "rgba(255,255,255,0)" );
 
   //genera grupos que van a contener los textos y figuras de cada nodo
   const node = g.selectAll(".node")
@@ -79,13 +79,44 @@ function tree() {
           + `translate(${d.y}, 0)`;
   });
   
+  var elements = d3
+    .select('body')
+    .append('rect')
+    .style('position', 'absolute')
+    .style('z-index', '10') //en donde se ubica
+    .style('visibility', 'hidden')
+    .style('background-color', 'white') //cambiarlo dependiendo del color
+
   // Genera los circulos de los nodos
   node.append("circle")
-    .attr("r", d => d.data.value)
-    .style("stroke", d => d.data.type)
-    .style("fill", d => d.data.level)
-    .on('mouseover', function (d, i) {
-      console.log(d.data.name)
+    .attr("r", 10)//d => d.data.value)
+    .style("stroke", "black")//d => d.data.type)
+    .style("fill", "black")//d => d.data.level)
+    .on('mouseout', function (d, i) {
+      elements.style('visibility', 'hidden')
+      svg.selectAll("#this")
+      .remove();
+      d3.select(this).transition()
+        .duration('1')
+        .attr('opacity', '1')})
+    .on('mouseover', function(d) {
+      elements.style('visibility', 'visible');
+    })
+    .on('mousemove', function(d) {
+      if (d.children){
+        return elements
+        .style('top', d3.event.pageY - 40 + 'px')
+        .style('left', d3.event.pageX + 40 + 'px')
+        .text(d.data.name);
+      }
+      else{
+        return elements
+        .style('top', d3.event.pageY - 40 + 'px')
+        .style('left', d3.event.pageX + 40 + 'px')
+        .text(d.data.name + " VALORES"); //FALTAN LOS VALORES
+      }
+    })
+      /*console.log(d.data.name)
       svg.append("g")
         .attr('id', 'this')
         .append('rect')
@@ -99,25 +130,18 @@ function tree() {
         svg.select("#this")
         .append("text")
         .text( "Nombre")
-        .attr("x", d.x)
-        .attr("y",d.y)
+        .attr("x", 700)
+        .attr("y", 70)
         .attr("font-family", "sans-serif")
         .attr("font-size","15px")
         .attr("fill", "#black");
 
       d3.select(this).transition()
         .duration('1')
-        .attr('opacity', '.85')})
-
-    .on('mouseout', function (d, i) {
-      svg.selectAll("#this")
-      .remove();
-      d3.select(this).transition()
-        .duration('1')
-        .attr('opacity', '1')})
+    .attr('opacity', '.85')*/
     
   // agrega el texto
-  node.append("text")
+  /*node.append("text")
     .attr("dx", d => { return d.x < Math.PI ? 12 : -12; })
     .attr("dy", ".28em")
     .attr("text-anchor", d => { 
@@ -126,7 +150,7 @@ function tree() {
     .attr("transform", d => { 
         return d.x < Math.PI ? null : "rotate(180)"; 
     })
-    .text(function(d) { return d.data.name; });
+    .text(function(d) { return d.data.name; });*/
   })}
 
 //Todo lo que está dentro de attr y style lo pueden consultar en la documentación de D3
