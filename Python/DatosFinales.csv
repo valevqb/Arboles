@@ -1,0 +1,882 @@
+ids,labels,parents
+Type Products,All Products,
+Animal Products,Animal  Products,Type Products
+Vegetable Products,Vegetable Products,Type Products
+Animal and Vegetable Bi-Products,Animal and Vegetable Bi-Products,Type Products
+Foodstuffs,Foodstuffs,Type Products
+Mineral Products,Mineral Products,Type Products
+Chemical Products,Chemical Products,Type Products
+Plastics and Rubbers,Plastics and Rubbers,Type Products
+Animal Hides,Animal Hides,Type Products
+Wood Products,Wood Products,Type Products
+Paper Goods,Paper Goods,Type Products
+Textiles,Textiles,Type Products
+Footwear and Headwear,Footwear and Headwear,Type Products
+Stone And Glass,Stone And Glass,Type Products
+Precious Metals,Precious Metals,Type Products
+Metals,Metals,Type Products
+Machines,Machines,Type Products
+Transportation,Transportation,Type Products
+Instruments,Instruments,Type Products
+Weapons,Weapons,Type Products
+Miscellaneous,Miscellaneous,Type Products
+Arts and Antiques,Arts and Antiques,Type Products
+Live animal,Live animal,Animal Products
+1,Horses value:222025,Live animal
+2,Bovine value:336202,Live animal
+3,Pigs value:554809,Live animal
+4,Sheep and Goats value:7113,Live animal
+5,Poultry value:6217790,Live animal
+6,Other Animals value:776751,Live animal
+Meat and edible meat offal,Meat and edible meat offal,Animal Products
+7,Bovine Meat value:11255139,Meat and edible meat offal
+8,Frozen Bovine Meat value:91202400,Meat and edible meat offal
+9,Pig Meat value:1199202,Meat and edible meat offal
+10,Edible Offal value:9909590,Meat and edible meat offal
+11,Poultry Meat value:681053,Meat and edible meat offal
+12,Animal Fat value:117421,Meat and edible meat offal
+13,Preserved Meat value:326660,Meat and edible meat offal
+Fish and crustaceans - molluscs and other aquatic invertebrates,Fish and crustaceans - molluscs and other aquatic invertebrates,Animal Products
+14,Live Fish value:244188,Fish and crustaceans - molluscs and other aquatic invertebrates
+15,Non-fillet Fresh Fish value:32822262,Fish and crustaceans - molluscs and other aquatic invertebrates
+16,Non-fillet Frozen Fish value:1723396,Fish and crustaceans - molluscs and other aquatic invertebrates
+17,Fish Fillets value:43229394,Fish and crustaceans - molluscs and other aquatic invertebrates
+18,Processed Fish value:3524897,Fish and crustaceans - molluscs and other aquatic invertebrates
+19,Crustaceans value:9886501,Fish and crustaceans - molluscs and other aquatic invertebrates
+20,Molluscs value:5833,Fish and crustaceans - molluscs and other aquatic invertebrates
+Dairy products and other edible products of animal origin,Dairy products and other edible products of animal origin,Animal Products
+21,Milk value:45278925,Dairy products and other edible products of animal origin
+22,Concentrated Milk value:50359747,Dairy products and other edible products of animal origin
+23,Fermented Milk Products value:10361878,Dairy products and other edible products of animal origin
+24,Whey value:21079235,Dairy products and other edible products of animal origin
+25,Butter value:5542632,Dairy products and other edible products of animal origin
+26,Cheese value:14129313,Dairy products and other edible products of animal origin
+27,Eggs value:12732884,Dairy products and other edible products of animal origin
+28,Processed Egg Products value:447492,Dairy products and other edible products of animal origin
+29,Honey value:27549,Dairy products and other edible products of animal origin
+Animal originated products,Animal originated products,Animal Products
+Trees and other live plants,Trees and other live plants,Vegetable Products
+30,Bulbs and Roots value:601122,Trees and other live plants
+31,Other Live Plants value:75004223,Trees and other live plants
+32,Cut Flowers value:29826311,Trees and other live plants
+33,Foliage value:37379762,Trees and other live plants
+Vegetables and certain roots and tubers,Vegetables and certain roots and tubers,Vegetable Products
+Fruit and nuts edible,Fruit and nuts edible,Vegetable Products
+Coffee tea mate and spices,Coffee tea mate and spices,Vegetable Products
+34,Coffee value:308892299,Coffee tea mate and spices
+35,Tea value:621133,Coffee tea mate and spices
+36,MatÌ© value:952,Coffee tea mate and spices
+37,Pepper value:1477103,Coffee tea mate and spices
+38 vanilla value:8051,Coffee tea mate and spices
+39,Cinnamon value:142197,Coffee tea mate and spices
+40,Cloves value:18135,Coffee tea mate and spices
+41,Nutmeg - mace and cardamons value:561847,Coffee tea mate and spices
+42,Spice Seeds value:91377,Coffee tea mate and spices
+43,Spices value:6700455,Coffee tea mate and spices
+Cereals,Cereals,Vegetable Products
+44,Corn value:49058,Cereals
+45,Rice value:3963642,Cereals
+46,Sorghum value:344,Cereals
+47,Buckwheat value:20712,Cereals
+Products of the milling industry,Products of the milling industry,Vegetable Products
+Oil seeds and oleaginous fruits,Oil seeds and oleaginous fruits,Vegetable Products
+48,Soybeans value:5610,Oil seeds and oleaginous fruits
+49,Ground Nuts value:76071,Oil seeds and oleaginous fruits
+50,Linseed value:20298,Oil seeds and oleaginous fruits
+51,Sunflower Seeds value:2987,Oil seeds and oleaginous fruits
+52,Other Oily Seeds value:3363751,Oil seeds and oleaginous fruits
+53,Oil Seed Flower value:28057,Oil seeds and oleaginous fruits
+54,Sowing Seeds value:12188297,Oil seeds and oleaginous fruits
+55,Perfume Plants value:2133614,Oil seeds and oleaginous fruits
+56,Locust beans - seaweed - sugar beet - cane - for food value:948770,Oil seeds and oleaginous fruits
+57,Cereal Straws value:1291,Oil seeds and oleaginous fruits
+Lac,Lac,Vegetable Products
+Vegetable plaiting materials,Vegetable plaiting materials,Vegetable Products
+58,Vegetable plaiting materials value:17926,Vegetable plaiting materials
+59,Other Vegetable Products value:518071,Vegetable plaiting materials
+60,Bovine - Sheep - and Goat Fat value:440404,Animal or vegetable fats and oils and their cleavage products
+Animal or vegetable fats and oils and their cleavage products,Animal or vegetable fats and oils and their cleavage products,Animal and Vegetable Bi-Products
+61,Fish Oil value:858173,Animal or vegetable fats and oils and their cleavage products
+62,Wool Grease value:25114,Animal or vegetable fats and oils and their cleavage products
+63,Other Animal Fats value:22814,Animal or vegetable fats and oils and their cleavage products
+64,Soybean Oil value:9317554,Animal or vegetable fats and oils and their cleavage products
+65,Ground Nut Oil value:435,Animal or vegetable fats and oils and their cleavage products
+66,Pure Olive Oil value:89111,Animal or vegetable fats and oils and their cleavage products
+67,Olive Oil value:18,Animal or vegetable fats and oils and their cleavage products
+68,Palm Oil value:113162518,Animal or vegetable fats and oils and their cleavage products
+69,Seed Oils value:341841,Animal or vegetable fats and oils and their cleavage products
+70,Coconut Oil value:16282956,Animal or vegetable fats and oils and their cleavage products
+71,Rapeseed Oil value:1476,Animal or vegetable fats and oils and their cleavage products
+72,Other Pure Vegetable Oils value:187429,Animal or vegetable fats and oils and their cleavage products
+73,Other Vegetable Oils value:240021,Animal or vegetable fats and oils and their cleavage products
+74,Margarine value:9619740,Animal or vegetable fats and oils and their cleavage products
+75,Inedible Fats and Oils value:89500,Animal or vegetable fats and oils and their cleavage products
+76,Stearic Acid value:759185,Animal or vegetable fats and oils and their cleavage products
+77,Glycerol value:11825,Animal or vegetable fats and oils and their cleavage products
+78,Waxes value:119686,Animal or vegetable fats and oils and their cleavage products
+Meat fish or crustaceans molluscs or other aquatic invertebrates,Meat fish or crustaceans molluscs or other aquatic invertebrates,Foodstuffs
+Sugars and sugar confectionery,Sugars and sugar confectionery,Foodstuffs
+Cocoa and cocoa preparations,Cocoa and cocoa preparations,Foodstuffs
+Preparations of cereals flour starch or milk,Preparations of cereals flour starch or milk,Foodstuffs
+Preparations of vegetables fruit nuts or other parts of plants,Preparations of vegetables fruit nuts or other parts of plants,Foodstuffs
+Miscellaneous edible preparations,Miscellaneous edible preparations,Foodstuffs
+Beverages spirits and vinegar,Beverages spirits and vinegar,Foodstuffs
+Food industries residues and wastes thereof,Food industries residues and wastes thereof,Foodstuffs
+Tobacco and manufactured tobacco substitutes,Tobacco and manufactured tobacco substitutes,Foodstuffs
+Salt,Salt,Mineral Products
+Ores slag and ash,Ores slag and ash,Mineral Products
+Mineral fuels mineral oils and products of their distillation,Mineral fuels mineral oils and products of their distillation,Mineral Products
+Inorganic chemicals,Inorganic chemicals,Chemical Products
+Organic chemicals,Organic chemicals,Chemical Products
+Pharmaceutical products,Pharmaceutical products,Chemical Products
+Fertilizers,Fertilizers,Chemical Products
+Tanning or dyeing extracts,Tanning or dyeing extracts,Chemical Products
+Essential oils and resinoids,Essential oils and resinoids,Chemical Products
+Soap organic surface-active agents,Soap organic surface-active agents,Chemical Products
+Albuminoidal substances,Albuminoidal substances,Chemical Products
+Explosives,Explosives,Chemical Products
+Photographic or cinematographic goods,Photographic or cinematographic goods,Chemical Products
+Chemical products n.e.s.,Chemical products n.e.s.,Chemical Products
+Plastics and articles thereof,Plastics and articles thereof,Plastics and Rubbers
+Rubber and articles thereof,Rubber and articles thereof,Plastics and Rubbers
+Raw hides and skins (other than furskins) and leather,Raw hides and skins (other than furskins) and leather,Animal Hides
+Articles of leather,Articles of leather,Animal Hides
+Furskins and artificial fur,Furskins and artificial fur,Animal Hides
+Wood and articles of wood,Wood and articles of wood,Wood Products
+Cork and articles of cork,Cork and articles of cork,Wood Products
+Manufactures of straw esparto or other plaiting materials,Manufactures of straw esparto or other plaiting materials,Wood Products
+Pulp of wood or other fibrous cellulosic material,Pulp of wood or other fibrous cellulosic material,Paper Goods
+Paper and paperboard,Paper and paperboard,Paper Goods
+Printed books newspapers pictures and other products of the printing industry,Printed books newspapers pictures and other products of the printing industry,Paper Goods
+Silk,Silk,Textiles
+Wool fine or coarse animal hair,Wool fine or coarse animal hair,Textiles
+Cotton,Cotton,Textiles
+Vegetable textile fibres,Vegetable textile fibres,Textiles
+Man-made filaments,Man-made filaments,Textiles
+Man-made staple fibres,Man-made staple fibres,Textiles
+Wadding felt and nonwovens special yarns,Wadding felt and nonwovens special yarns,Textiles
+Carpets and other textile floor coverings,Carpets and other textile floor coverings,Textiles
+Woven fabrics,Woven fabrics,Textiles
+Textile fabrics,Textile fabrics,Textiles
+Knitted or chrocheted fabrics,Knitted or chrocheted fabrics,Textiles
+Knitted or crocheted apparel and clothing accessories,Knitted or crocheted apparel and clothing accessories,Textiles
+Non-knit or crocheted apparel and clothing accessories,Non-knit or crocheted apparel and clothing accessories,Textiles
+Textiles made up articles,Textiles made up articles,Textiles
+Footwear,Footwear,Footwear and Headwear
+Headgear and parts thereof,Headgear and parts thereof,Footwear and Headwear
+Umbrellas sun umbrellas walking-sticks seat sticks whips riding crops,Umbrellas sun umbrellas walking-sticks seat sticks whips riding crops,Footwear and Headwear
+Feathers and down prepared,Feathers and down prepared,Footwear and Headwear
+Stone plaster cement asbestos mica or similar materials,Stone plaster cement asbestos mica or similar materials,Stone And Glass
+Ceramic products,Ceramic products,Stone And Glass
+Glass and glassware,Glass and glassware,Stone And Glass
+Precious metals gems and jewelry,Precious metals gems and jewelry,Precious Metals
+Iron and steel,Iron and steel,Metals
+Iron or steel articles,Iron or steel articles,Metals
+Copper and articles thereof,Copper and articles thereof,Metals
+Nickel and articles thereof,Nickel and articles thereof,Metals
+Aluminium and articles thereof,Aluminium and articles thereof,Metals
+Lead and articles thereof,Lead and articles thereof,Metals
+Zinc and articles thereof,Zinc and articles thereof,Metals
+Tin,Tin,Metals
+Metal Elements,Metals Elements,Metals
+Tools and cutlery,Tools and cutlery,Metals
+Metal,Metal,Metals
+Machinery and appliances,Machinery and appliances,Machines
+Electrical machinery and equipment,Electrical machinery and equipment,Machines
+Railway and other rolling stock,Railway and other rolling stock,Transportation
+Vehicles and their parts,Vehicles and their parts,Transportation
+Aircraft spacecraft and parts thereof,Aircraft spacecraft and parts thereof,Transportation
+Ships boats and floating structures,Ships boats and floating structures,Transportation
+Instruments and apparatus,Instruments and apparatus,Instruments
+Clocks and watches,Clocks and watches,Instruments
+Musical instruments,Musical instruments,Instruments
+Arms and ammunition,Arms and ammunition,Weapons
+Furniture,Furniture,Miscellaneous
+Toys and games,Toys and games,Miscellaneous
+Miscellaneous manufactured articles,Miscellaneous manufactured articles,Miscellaneous
+Works of art,Works of art,Arts and Antiques
+79,Sausages value:12241793,Meat fish or crustaceans molluscs or other aquatic invertebrates
+80,Other Prepared Meat value:8464777,Meat fish or crustaceans molluscs or other aquatic invertebrates
+81,Processed Fish value:28881221,Meat fish or crustaceans molluscs or other aquatic invertebrates
+82,Processed Crustaceans value:326071,Meat fish or crustaceans molluscs or other aquatic invertebrates
+83,Raw Sugar value:78288385,Sugars and sugar confectionery
+84,Other Sugars value:974797,Sugars and sugar confectionery
+85,Molasses value:1292,Sugars and sugar confectionery
+86,Confectionery Sugar value:16518178,Sugars and sugar confectionery
+87,Cocoa Beans value:1727000,Cocoa and cocoa preparations
+88,Cocoa Paste value:2553,Cocoa and cocoa preparations
+89,Cocoa Butter value:49798,Cocoa and cocoa preparations
+90,Cocoa Powder value:122047,Cocoa and cocoa preparations
+91,Chocolate value:9509786,Cocoa and cocoa preparations
+92,Pickled Foods value:1583567,Preparations of vegetables fruit nuts or other parts of plants
+93,Processed Tomatoes value:6036717,Preparations of vegetables fruit nuts or other parts of plants
+94,Processed Mushrooms value:584255,Preparations of vegetables fruit nuts or other parts of plants
+95,Other Frozen Vegetables value:1573789,Preparations of vegetables fruit nuts or other parts of plants
+96,Other Processed Vegetables value:6781542,Preparations of vegetables fruit nuts or other parts of plants
+97,Sugar Preserved Foods value:1739052,Preparations of vegetables fruit nuts or other parts of plants
+98,Jams value:29203004,Preparations of vegetables fruit nuts or other parts of plants
+99,Other Processed Fruits and Nuts value:169027547,Preparations of vegetables fruit nuts or other parts of plants
+100,Fruit Juice value:156036926,Preparations of vegetables fruit nuts or other parts of plants
+101,Coffee and Tea Extracts value:1849512,Miscellaneous edible preparations
+102,Yeast value:682178,Miscellaneous edible preparations
+103,Sauces and Seasonings value:110227334,Miscellaneous edible preparations
+104,Soups and Broths value:208341,Miscellaneous edible preparations
+105,Ice Cream value:13586873,Miscellaneous edible preparations
+106,Other Edible Preparations value:463747632,Miscellaneous edible preparations
+107,Water value:677736,Beverages spirits and vinegar
+108,Flavored Water value:41820943,Beverages spirits and vinegar
+109,Beer value:4164288,Beverages spirits and vinegar
+110,Wine value:8386,Beverages spirits and vinegar
+111 vermouth value:182,Beverages spirits and vinegar
+112,Other Fermented Beverages value:4605,Beverages spirits and vinegar
+113,Alcohol > 80% ABV value:18032109,Beverages spirits and vinegar
+114,Hard Liquor value:19780742,Beverages spirits and vinegar
+115 vinegar value:203519,Beverages spirits and vinegar
+116,Raw Tobacco value:653692,Tobacco and manufactured tobacco substitutes
+117,Rolled Tobacco value:4441543,Tobacco and manufactured tobacco substitutes
+118,Processed Tobacco value:11162,Tobacco and manufactured tobacco substitutes
+119,Chromium Ore value:1699,Ores slag and ash
+120,Molybdenum Ore value:450,Ores slag and ash
+121,Precious Metal Ore value:201,Ores slag and ash
+122,Other Ores value:2030,Ores slag and ash
+123,Granulated Slag value:128380,Ores slag and ash
+124,Non-Iron and Steel Slag Ash and Residues value:3530895,Ores slag and ash
+125,Other Slag and Ash value:5,Ores slag and ash
+126,Coal Tar Oil value:117186,Mineral fuels mineral oils and products of their distillation
+127,Pitch Coke value:87,Mineral fuels mineral oils and products of their distillation
+128,Refined Petroleum value:2814359,Mineral fuels mineral oils and products of their distillation
+129,Petroleum Gas value:7103,Mineral fuels mineral oils and products of their distillation
+130,Petroleum Jelly value:359542,Mineral fuels mineral oils and products of their distillation
+131,Petroleum Coke value:69,Mineral fuels mineral oils and products of their distillation
+132,Asphalt value:7386,Mineral fuels mineral oils and products of their distillation
+133,Asphalt Mixtures value:1088,Mineral fuels mineral oils and products of their distillation
+134,Electricity value:6678184,Mineral fuels mineral oils and products of their distillation
+135,Acyclic Hydrocarbons value:339285,Organic chemicals
+136,Cyclic Hydrocarbons value:499583,Organic chemicals
+137,Halogenated Hydrocarbons value:21613,Organic chemicals
+138,Sulfonated Nitrated or Nitrosated Hydrocarbons value:8804,Organic chemicals
+139,Acyclic Alcohols value:165853,Organic chemicals
+140,Cyclic Alcohols value:60830,Organic chemicals
+141,Phenols value:20834,Organic chemicals
+142,Ethers value:308170,Organic chemicals
+143,Epoxides value:6075,Organic chemicals
+144,Aldehydes value:480530,Organic chemicals
+145,Ketones and Quinones value:178569,Organic chemicals
+146,Saturated Acyclic Monocarboxylic Acids value:522256,Organic chemicals
+147,Unsaturated Acyclic Monocarboxylic Acids value:463958,Organic chemicals
+148,Polycarboxylic Acids value:152962,Organic chemicals
+149,Carboxylic Acids value:446275,Organic chemicals
+150,Amine Compounds value:121816,Organic chemicals
+151,Oxygen Amino Compounds value:164278,Organic chemicals
+152,Quaternary Ammonium Salts and Hydroxides value:1513954,Organic chemicals
+153,Carboxyamide Compounds value:152958,Organic chemicals
+154,Carboxyimide Compounds value:27268,Organic chemicals
+155,Nitrile Compounds value:119472,Organic chemicals
+156,Diazo Azo or Aoxy Compounds value:243,Organic chemicals
+157,Hydrazine or Hydroxylamine Derivatives value:9743,Organic chemicals
+158,Other Nitrogen Compounds value:70235,Organic chemicals
+159,Organo-Sulfur Compounds value:404137,Organic chemicals
+160,Other Organo-Inorganic Compounds value:43100,Organic chemicals
+161,Oxygen Heterocyclic Compounds value:136818,Organic chemicals
+162,Nitrogen Heterocyclic Compounds value:1178600,Organic chemicals
+163,Nucleic Acids value:483119,Organic chemicals
+164,Sulfonamides value:36262,Organic chemicals
+165 vitamins value:479469,Organic chemicals
+166,Hormones value:31783,Organic chemicals
+167,Glycosides value:3,Organic chemicals
+168 vegetable Alkaloids value:157,Organic chemicals
+169,Chemically Pure Sugars value:3698,Organic chemicals
+170,Antibiotics value:500043,Organic chemicals
+171,Other Organic Compounds value:69620,Organic chemicals
+172,Glands and Other Organs value:5137040,Pharmaceutical products
+173,Blood antisera vaccines toxins and cultures value:143603139,Pharmaceutical products
+174,Unpackaged Medicaments value:881808,Pharmaceutical products
+175,Packaged Medicaments value:167787365,Pharmaceutical products
+176,Bandages value:1084137,Pharmaceutical products
+177,Special Pharmaceuticals value:8289436,Pharmaceutical products
+178,Animal or Vegetable Fertilizers value:45968,Fertilizers
+179,Nitrogenous Fertilizers value:4402680,Fertilizers
+180,Phosphatic Fertilizers value:13875,Fertilizers
+181,Potassic Fertilizers value:1101785,Fertilizers
+182,Mixed Mineral or Chemical Fertilizers value:29538449,Fertilizers
+183,Photographic Plates value:582045,Photographic or cinematographic goods
+184,Photographic Film value:1471,Photographic or cinematographic goods
+185,Photographic Paper value:4975,Photographic or cinematographic goods
+186,Developed Exposed Photographic Material value:38080,Photographic or cinematographic goods
+187,Motion-picture film exposed and developed value:505,Photographic or cinematographic goods
+188,Photographic Chemicals value:135401,Photographic or cinematographic goods
+189,Artificial Graphite value:81,Chemical products n.e.s.
+190,Activated Carbon value:110519,Chemical products n.e.s.
+191,Wood Pulp Lyes value:1128,Chemical products n.e.s.
+192,Turpentine value:2283,Chemical products n.e.s.
+193,Wood Tar Oils and Pitch value:30764,Chemical products n.e.s.
+194,Pesticides value:96116923,Chemical products n.e.s.
+195,Dyeing Finishing Agents value:229689,Chemical products n.e.s.
+196,Metal Pickling Preparations value:91319,Chemical products n.e.s.
+197,Antiknock value:468638,Chemical products n.e.s.
+198,Prepared Rubber Accelerators value:318105,Chemical products n.e.s.
+199,Fire Extinguishers Preparations value:372,Chemical products n.e.s.
+200,Organic Composite Solvents value:2127595,Chemical products n.e.s.
+201,Reaction and Catalytic Products value:342077,Chemical products n.e.s.
+202,Refractory Cements value:469009,Chemical products n.e.s.
+203,Alkylbenzenes and Alkylnaphthalenes value:50,Chemical products n.e.s.
+204,Disc Chemicals for Electronics value:126941,Chemical products n.e.s.
+205,Hydraulic Brake Fluid value:57396,Chemical products n.e.s.
+206,Antifreeze value:169713,Chemical products n.e.s.
+207,Micro-Organism Culture Preparations value:89413,Chemical products n.e.s.
+208,Laboratory Reagents value:1795017,Chemical products n.e.s.
+209,Industrial Fatty Acids Oils and Alcohols value:14661101,Chemical products n.e.s.
+210,Ethylene Polymers value:2294038,Plastics and articles thereof
+211,Propylene Polymers value:1627813,Plastics and articles thereof
+212,Styrene Polymers value:116339,Plastics and articles thereof
+213 vinyl Chloride Polymers value:8481086,Plastics and articles thereof
+214,Other Vinyl Polymers value:292054,Plastics and articles thereof
+215,Acrylic Polymers value:815880,Plastics and articles thereof
+216,Polyacetals value:2670405,Plastics and articles thereof
+217,Polyamides value:93385,Plastics and articles thereof
+218,Amino-resins value:411368,Plastics and articles thereof
+219,Silicone value:375867,Plastics and articles thereof
+220,Petroleum Resins value:171368,Plastics and articles thereof
+221,Cellulose value:319432,Plastics and articles thereof
+222,Natural Polymers value:97388,Plastics and articles thereof
+223,Polymer Ion-Exchangers value:1753,Plastics and articles thereof
+224,Scrap Plastic value:3680432,Plastics and articles thereof
+225,Monofilament value:3251581,Plastics and articles thereof
+226,Plastic Pipes value:60563892,Plastics and articles thereof
+227,Plastic Floor Coverings value:186464,Plastics and articles thereof
+228,Self-adhesive Plastics value:7661840,Plastics and articles thereof
+229,Raw Plastic Sheeting value:18384377,Plastics and articles thereof
+230,Other Plastic Sheetings value:62079236,Plastics and articles thereof
+231,Plastic Wash Basins value:1302943,Plastics and articles thereof
+232,Plastic Lids value:92393774,Plastics and articles thereof
+233,Plastic Housewares value:5937352,Plastics and articles thereof
+234,Plastic Building Materials value:18994717,Plastics and articles thereof
+235,Other Plastic Products value:121597631,Plastics and articles thereof
+236,Rubber value:141520,Rubber and articles thereof
+237,Synthetic Rubber value:103315,Rubber and articles thereof
+238,Reclaimed Rubber value:80699,Rubber and articles thereof
+239,Scrap Rubber value:54833,Rubber and articles thereof
+240,Compounded Unvulcanised Rubber value:593622,Rubber and articles thereof
+241,Unvulcanised Rubber Products value:8956,Rubber and articles thereof
+242,Rubber Thread value:16717,Rubber and articles thereof
+243,Rubber Sheets value:155055,Rubber and articles thereof
+244,Rubber Pipes value:505138,Rubber and articles thereof
+245,Rubber Belting value:134832,Rubber and articles thereof
+246,Rubber Tires value:203310189,Rubber and articles thereof
+247,Used Rubber Tires value:48203,Rubber and articles thereof
+248,Rubber Inner Tubes value:55388,Rubber and articles thereof
+249,Pharmaceutical Rubber Products value:320456,Rubber and articles thereof
+250,Rubber Apparel value:590576,Rubber and articles thereof
+251,Other Rubber Products value:74474925,Rubber and articles thereof
+252,Hard Rubber value:38133,Rubber and articles thereof
+253,Equine and Bovine Hides value:24262,Raw hides and skins (other than furskins) and leather
+254,Sheep Hides value:1298,Raw hides and skins (other than furskins) and leather
+255,Other Hides and Skins value:282041,Raw hides and skins (other than furskins) and leather
+256,Tanned Equine and Bovine Hides value:3684880,Raw hides and skins (other than furskins) and leather
+257,Leather of Other Animals value:100,Raw hides and skins (other than furskins) and leather
+258,Chamois Leather value:271,Raw hides and skins (other than furskins) and leather
+259,Patent Leather value:19,Raw hides and skins (other than furskins) and leather
+260,Leather Waste value:6314,Raw hides and skins (other than furskins) and leather
+261,Leather Sheets value:4956,Raw hides and skins (other than furskins) and leather
+262,Natural Cork Articles value:36162,Cork and articles of cork
+263,Agglomerated Cork value:970,Cork and articles of cork
+264,Silk Fabrics value:1019,Silk
+265,Raw Cotton value:269899,Cotton
+266,Cotton Waste value:2220862,Cotton
+267,Prepared Cotton value:1066498,Cotton
+268,Cotton Sewing Thread value:10861,Cotton
+269,Non-Retail Pure Cotton Yarn value:23217717,Cotton
+270,Non-Retail Mixed Cotton Yarn value:10869894,Cotton
+271,Retail Cotton Yarn value:191171,Cotton
+272,Light Pure Woven Cotton value:10317,Cotton
+273,Heavy Pure Woven Cotton value:122656,Cotton
+274,Light Mixed Woven Cotton value:67682,Cotton
+275,Heavy Mixed Woven Cotton value:284,Cotton
+276,Other Cotton Fabrics value:129278,Cotton
+277,Artificial Filament Sewing Thread value:11405867,Man-made filaments
+278,Non-Retail Synthetic Filament Yarn value:10958376,Man-made filaments
+279,Non-Retail Artificial Filament Yarn value:8367,Man-made filaments
+280,Synthetic Monofilament value:72439,Man-made filaments
+281,Retail Artificial Filament Yarn value:9220,Man-made filaments
+282,Synthetic Filament Yarn Woven Fabric value:656479,Man-made filaments
+283,Artificial Filament Yarn Woven Fabric value:35428,Man-made filaments
+284,Synthetic Filament Tow value:1586,Man-made staple fibres
+285,Artificial Filament Tow value:209,Man-made staple fibres
+286,Unprocessed Synthetic Staple Fibers value:167032,Man-made staple fibres
+287,Non-Retail Artificial Staple Fibers Sewing Thread value:1526587,Man-made staple fibres
+288,Non-Retail Synthetic Staple Fibers Yarn value:1691461,Man-made staple fibres
+289,Non-Retail Artificial Staple Fibers Yarn value:221462,Man-made staple fibres
+290,Retail Artificial Staple Fibers Yarn value:173,Man-made staple fibres
+291,Synthetic Fabrics value:8083,Man-made staple fibres
+292,Light Synthetic Cotton Fabrics value:35416,Man-made staple fibres
+293,Heavy Synthetic Cotton Fabrics value:7438,Man-made staple fibres
+294,Other Synthetic Fabrics value:82856,Man-made staple fibres
+295,Woven Fabric of Synthetic Staple Fibers value:20431,Man-made staple fibres
+296,Knotted Carpets value:4394,Carpets and other textile floor coverings
+297,Hand-Woven Rugs value:34741,Carpets and other textile floor coverings
+298,Tufted Carpets value:42482,Carpets and other textile floor coverings
+299,Other Carpets value:12331,Carpets and other textile floor coverings
+300,Woven Fabrics value:886738,Woven fabrics
+301,Terry Fabric value:271,Woven fabrics
+302,Tulles and Net Fabric value:14173,Woven fabrics
+303,Hand-Woven Tapestries value:5415,Woven fabrics
+304,Narrow Woven Fabric value:2029600,Woven fabrics
+305,Labels value:444740,Woven fabrics
+306,Ornamental Trimmings value:236,Woven fabrics
+307,Metallic Fabric value:1564,Woven fabrics
+308,Embroidery value:33607,Woven fabrics
+309,Quilted Textiles value:1912,Woven fabrics
+310,Gum Coated Textile Fabric value:1779,Textile fabrics
+311,Polyamide Fabric value:15057,Textile fabrics
+312,Plastic Coated Textile Fabric value:9488374,Textile fabrics
+313,Linoleum value:606,Textile fabrics
+314,Textile Wall Coverings value:32000,Textile fabrics
+315,Rubber Textile Fabric value:423151,Textile fabrics
+316,Coated Textile Fabric value:4983,Textile fabrics
+317,Hose Piping Textiles value:361336,Textile fabrics
+318,Conveyor Belt Textiles value:4650,Textile fabrics
+319,Technical Use Textiles value:18606814,Textile fabrics
+320,Pile Fabric value:7617,Knitted or chrocheted fabrics
+321,Light Rubberized Knitted Fabric value:959694,Knitted or chrocheted fabrics
+322,Knit Men's Coats value:19530,Knitted or crocheted apparel and clothing accessories
+323,Knit Women's Coats value:8796,Knitted or crocheted apparel and clothing accessories
+324,Knit Men's Suits value:776824,Knitted or crocheted apparel and clothing accessories
+325,Knit Women's Suits value:298322,Knitted or crocheted apparel and clothing accessories
+326,Knit Men's Shirts value:101564,Knitted or crocheted apparel and clothing accessories
+327,Knit Women's Shirts value:68230,Knitted or crocheted apparel and clothing accessories
+328,Knit Men's Undergarments value:80739,Knitted or crocheted apparel and clothing accessories
+329,Knit Women's Undergarments value:54760,Knitted or crocheted apparel and clothing accessories
+330,Knit T-shirts value:1232329,Knitted or crocheted apparel and clothing accessories
+331,Knit Sweaters value:275800,Knitted or crocheted apparel and clothing accessories
+332,Knit Babies' Garments value:55111,Knitted or crocheted apparel and clothing accessories
+333,Knit Active Wear value:52560,Knitted or crocheted apparel and clothing accessories
+334,Garments of Impregnated Fabric value:3994,Knitted or crocheted apparel and clothing accessories
+335,Other Knit Garments value:658057,Knitted or crocheted apparel and clothing accessories
+336,Knit Socks and Hosiery value:31209603,Knitted or crocheted apparel and clothing accessories
+337,Knit Gloves value:61567,Knitted or crocheted apparel and clothing accessories
+338,Other Knit Clothing Accessories value:83050,Knitted or crocheted apparel and clothing accessories
+339,Non-Knit Men's Coats value:188182,Non-knit or crocheted apparel and clothing accessories
+340,Non-Knit Women's Coats value:57311,Non-knit or crocheted apparel and clothing accessories
+341,Non-Knit Men's Suits value:2864326,Non-knit or crocheted apparel and clothing accessories
+342,Non-Knit Women's Suits value:1316035,Non-knit or crocheted apparel and clothing accessories
+343,Non-Knit Men's Shirts value:567287,Non-knit or crocheted apparel and clothing accessories
+344,Non-Knit Women's Shirts value:241173,Non-knit or crocheted apparel and clothing accessories
+345,Non-Knit Men's Undergarments value:299424,Non-knit or crocheted apparel and clothing accessories
+346,Non-Knit Women's Undergarments value:168015,Non-knit or crocheted apparel and clothing accessories
+347,Non-Knit Babies' Garments value:51130,Non-knit or crocheted apparel and clothing accessories
+348,Felt or Coated Fabric Garments value:213535,Non-knit or crocheted apparel and clothing accessories
+349,Non-Knit Active Wear value:287757,Non-knit or crocheted apparel and clothing accessories
+350,Other Women's Undergarments value:7956717,Non-knit or crocheted apparel and clothing accessories
+351,Handkerchiefs value:181,Non-knit or crocheted apparel and clothing accessories
+352,Scarves value:91720,Non-knit or crocheted apparel and clothing accessories
+353,Neck Ties value:5053,Non-knit or crocheted apparel and clothing accessories
+354,Non-Knit Gloves value:8539,Non-knit or crocheted apparel and clothing accessories
+355,Other Non-Knit Clothing Accessories value:135025,Non-knit or crocheted apparel and clothing accessories
+356,Hat Forms value:2,Headgear and parts thereof
+357,Hat Shapes value:5,Headgear and parts thereof
+358,Hats value:2639,Headgear and parts thereof
+359,Knitted Hats value:499612,Headgear and parts thereof
+360,Other Headwear value:306768,Headgear and parts thereof
+361,Headbands and Linings value:22223,Headgear and parts thereof
+362,Bricks value:3727,Ceramic products
+363,Refractory Bricks value:61297,Ceramic products
+364,Refractory Ceramics value:34537,Ceramic products
+365,Ceramic Bricks value:44256,Ceramic products
+366,Unglazed Ceramics value:2065155,Ceramic products
+367,Laboratory Ceramic Ware value:29880,Ceramic products
+368,Bathroom Ceramics value:1390891,Ceramic products
+369,Porcelain Tableware value:38247,Ceramic products
+370,Ceramic Tableware value:104315,Ceramic products
+371,Ornamental Ceramics value:136899,Ceramic products
+372,Other Ceramic Articles value:99042,Ceramic products
+373,Glass Scraps value:546,Glass and glassware
+374,Glass Balls value:500,Glass and glassware
+375,Cast or Rolled Glass value:661528,Glass and glassware
+376,Blown Glass value:78334,Glass and glassware
+377,Float Glass value:1135847,Glass and glassware
+378,Glass with Edge Workings value:5798,Glass and glassware
+379,Safety Glass value:2661967,Glass and glassware
+380,Insulating Glass value:33755,Glass and glassware
+381,Glass Mirrors value:420095,Glass and glassware
+382,Glass Bottles value:88872120,Glass and glassware
+383,Glass Bulbs value:760,Glass and glassware
+384,Interior Decorative Glassware value:1496441,Glass and glassware
+385,Eyewear and Clock Glass value:2,Glass and glassware
+386,Glass Bricks value:1094270,Glass and glassware
+387,Laboratory Glassware value:9856757,Glass and glassware
+388,Glass Beads value:35142,Glass and glassware
+389,Glass Fibers value:14289782,Glass and glassware
+390,Other Glass Articles value:50458,Glass and glassware
+391,Pearls value:288,Precious metals gems and jewelry
+392,Diamonds value:33546,Precious metals gems and jewelry
+393,Precious Stones value:13340,Precious metals gems and jewelry
+394,Synthetic Reconstructed Jewellery Stones value:1457,Precious metals gems and jewelry
+395,Silver value:159435,Precious metals gems and jewelry
+396,Gold value:29912825,Precious metals gems and jewelry
+397,Gold Clad Metals value:202503,Precious metals gems and jewelry
+398,Platinum value:7134529,Precious metals gems and jewelry
+399,Platinum Clad Metals value:1219311,Precious metals gems and jewelry
+400,Precious Metal Scraps value:5372195,Precious metals gems and jewelry
+401,Jewellery value:2865945,Precious metals gems and jewelry
+402,Metal-Clad Products value:14077,Precious metals gems and jewelry
+403,Other Precious Metal Products value:597506,Precious metals gems and jewelry
+404,Pearl Products value:40732,Precious metals gems and jewelry
+405,Imitation Jewellery value:4681069,Precious metals gems and jewelry
+406,Coin value:16504,Precious metals gems and jewelry
+407,Ferroalloys value:2241689,Iron and steel
+408,Iron Reductions value:1432,Iron and steel
+409,Scrap Iron value:24359022,Iron and steel
+410,Iron Powder value:211970,Iron and steel
+411,Iron Ingots value:3897277,Iron and steel
+412,Semi-Finished Iron value:55878,Iron and steel
+413,Hot-Rolled Iron value:224933,Iron and steel
+414,Cold-Rolled Iron value:498980,Iron and steel
+415,Coated Flat-Rolled Iron value:37903800,Iron and steel
+416,Large Flat-Rolled Iron value:195500,Iron and steel
+417,Large Coated Flat-Rolled Iron value:1806651,Iron and steel
+418,Hot-Rolled Iron Bars value:9,Iron and steel
+419,Raw Iron Bars value:58939206,Iron and steel
+420,Other Iron Bars value:688187,Iron and steel
+421,Iron Blocks value:9178837,Iron and steel
+422,Iron Wire value:5092674,Iron and steel
+423,Stainless Steel Ingots value:9841,Iron and steel
+424,Large Flat-Rolled Stainless Steel value:503921,Iron and steel
+425,Flat-Rolled Stainless Steel value:453661,Iron and steel
+426,Hot-Rolled Stainless Steel Bars value:1311,Iron and steel
+427,Other Stainless Steel Bars value:319866,Iron and steel
+428,Stainless Steel Wire value:5234414,Iron and steel
+429,Steel Ingots value:4064,Iron and steel
+430,Flat Flat-Rolled Steel value:79540,Iron and steel
+431,Flat-Rolled Iron value:300887,Iron and steel
+432,Steel Bars value:1326505,Iron and steel
+433,Other Steel Bars value:667604,Iron and steel
+434,Steel Wire value:267167,Iron and steel
+435,Iron Sheet Piling value:4473,Iron or steel articles
+436,Iron Railway Products value:419,Iron or steel articles
+437,Cast Iron Pipes value:41993,Iron or steel articles
+438,Iron Pipes value:2695428,Iron or steel articles
+439,Other Large Iron Pipes value:18394,Iron or steel articles
+440,Other Small Iron Pipes value:28168389,Iron or steel articles
+441,Iron Pipe Fittings value:1016422,Iron or steel articles
+442,Iron Structures value:8261072,Iron or steel articles
+443,Large Iron Containers value:1327971,Iron or steel articles
+444,Small Iron Containers value:11573436,Iron or steel articles
+445,Iron Gas Containers value:1150343,Iron or steel articles
+446,Stranded Iron Wire value:1556847,Iron or steel articles
+447,Barbed Wire value:4785718,Iron or steel articles
+448,Iron Cloth value:3562487,Iron or steel articles
+449,Iron Chains value:326713,Iron or steel articles
+450,Iron Anchors value:11387,Iron or steel articles
+451,Iron Nails value:291599,Iron or steel articles
+452,Iron Fasteners value:1685793,Iron or steel articles
+453,Iron Sewing Needles value:25844,Iron or steel articles
+454,Iron Springs value:119702,Iron or steel articles
+455,Iron Stovetops value:712176,Iron or steel articles
+456,Iron Radiators value:403807,Iron or steel articles
+457,Iron Housewares value:529168,Iron or steel articles
+458,Iron Toiletry value:309661,Iron or steel articles
+459,Other Cast Iron Products value:718155,Iron or steel articles
+460,Other Iron Products value:33591116,Iron or steel articles
+461,Raw Copper value:256907,Copper and articles thereof
+462,Refined Copper value:986507,Copper and articles thereof
+463,Scrap Copper value:19166963,Copper and articles thereof
+464,Copper Powder value:4529,Copper and articles thereof
+465,Copper Bars value:350524,Copper and articles thereof
+466,Copper Wire value:1575251,Copper and articles thereof
+467,Copper Plating value:200880,Copper and articles thereof
+468,Copper Foil value:28618,Copper and articles thereof
+469,Copper Pipes value:91597,Copper and articles thereof
+470,Copper Pipe Fittings value:1678253,Copper and articles thereof
+471,Stranded Copper Wire value:450792,Copper and articles thereof
+472,Copper Fasteners value:43945,Copper and articles thereof
+473,Copper Housewares value:27097,Copper and articles thereof
+474,Other Copper Products value:2664953,Copper and articles thereof
+475,Scrap Nickel value:40245,Nickel and articles thereof
+476,Nickel Bars value:26141773,Nickel and articles thereof
+477,Nickel Pipes value:1112018,Nickel and articles thereof
+478,Other Nickel Products value:707818,Nickel and articles thereof
+479,Raw Aluminium value:2231867,Aluminium and articles thereof
+480,Scrap Aluminium value:25057357,Aluminium and articles thereof
+481,Aluminium Bars value:9025860,Aluminium and articles thereof
+482,Aluminium Wire value:983307,Aluminium and articles thereof
+483,Aluminium Plating value:6218952,Aluminium and articles thereof
+484,Aluminium Foil value:13754309,Aluminium and articles thereof
+485,Aluminium Pipes value:85337,Aluminium and articles thereof
+486,Aluminium Pipe Fittings value:40451,Aluminium and articles thereof
+487,Aluminium Structures value:1285480,Aluminium and articles thereof
+488,Large Aluminium Containers value:4361,Aluminium and articles thereof
+489,Aluminium Cans value:5171199,Aluminium and articles thereof
+490,Aluminium Gas Containers value:33581,Aluminium and articles thereof
+491,Stranded Aluminium Wire value:2431784,Aluminium and articles thereof
+492,Aluminium Housewares value:197751,Aluminium and articles thereof
+493,Other Aluminium Products value:3753383,Aluminium and articles thereof
+494,Raw Lead value:15104809,Lead and articles thereof
+495,Scrap Lead value:222180,Lead and articles thereof
+496,Lead Sheets value:416693,Lead and articles thereof
+497,Other Lead Products value:504,Lead and articles thereof
+498,Raw Zinc value:23698,Zinc and articles thereof
+499,Scrap Waste value:288541,Zinc and articles thereof
+500,Zinc Bars value:9,Zinc and articles thereof
+501,Zinc Sheets value:760,Zinc and articles thereof
+502,Other Zinc Products value:119483,Zinc and articles thereof
+503,Garden Tools value:40092,Tools and cutlery
+504,Hand Saws value:39256,Tools and cutlery
+505,Hand Tools value:1482802,Tools and cutlery
+506,Wrenches value:165338,Tools and cutlery
+507,Other Hand Tools value:622069,Tools and cutlery
+508,Tool Sets value:172959,Tools and cutlery
+509,Interchangeable Tool Parts value:4347255,Tools and cutlery
+510,Cutting Blades value:246589,Tools and cutlery
+511,Tool Plates value:13812,Tools and cutlery
+512,Cooking Hand Tools value:27932,Tools and cutlery
+513,Knives value:57583,Tools and cutlery
+514,Razor Blades value:20259,Tools and cutlery
+515,Scissors value:209325,Tools and cutlery
+516,Other Cutlery value:20581,Tools and cutlery
+517,Cutlery Sets value:15748,Tools and cutlery
+518,Steam Boilers value:480823,Machinery and appliances
+519,Central Heating Boilers value:941,Machinery and appliances
+520,Boiler Plants value:2953,Machinery and appliances
+521,Water and Gas Generators value:361231,Machinery and appliances
+522,Steam Turbines value:47999,Machinery and appliances
+523,Spark-Ignition Engines value:1570832,Machinery and appliances
+524,Combustion Engines value:299313,Machinery and appliances
+525,Engine Parts value:1361786,Machinery and appliances
+526,Hydraulic Turbines value:332,Machinery and appliances
+527,Gas Turbines value:10008602,Machinery and appliances
+528,Other Engines value:2579120,Machinery and appliances
+529,Liquid Pumps value:8166985,Machinery and appliances
+530,Air Pumps value:2230963,Machinery and appliances
+531,Air Conditioners value:520926,Machinery and appliances
+532,Liquid Fuel Furnaces value:8895,Machinery and appliances
+533,Industrial Furnaces value:499387,Machinery and appliances
+534,Refrigerators value:2355616,Machinery and appliances
+535,Other Heating Machinery value:3031192,Machinery and appliances
+536,Rolling Machines value:85310,Machinery and appliances
+537,Centrifuges value:5109274,Machinery and appliances
+538,Washing and Bottling Machines value:2190347,Machinery and appliances
+539,Scales value:484095,Machinery and appliances
+540,Liquid Dispersing Machines value:3478378,Machinery and appliances
+541,Pulley Systems value:498723,Machinery and appliances
+542,Cranes value:1978009,Machinery and appliances
+543,Fork-Lifts value:1627490,Machinery and appliances
+544,Lifting Machinery value:2898350,Machinery and appliances
+545,Large Construction Vehicles value:3877188,Machinery and appliances
+546,Other Construction Vehicles value:1839984,Machinery and appliances
+547,Excavation Machinery value:2743998,Machinery and appliances
+548,Soil Preparation Machinery value:2504365,Machinery and appliances
+549,Harvesting Machinery value:1185928,Machinery and appliances
+550,Dairy Machinery value:40287,Machinery and appliances
+551,Fruit Pressing Machinery value:4889,Machinery and appliances
+552,Other Agricultural Machinery value:402446,Machinery and appliances
+553,Mill Machinery value:3215148,Machinery and appliances
+554,Industrial Food Preperation Machinery value:2776131,Machinery and appliances
+555,Papermaking Machines value:109313,Machinery and appliances
+556,Book-binding Machines value:28281,Machinery and appliances
+557,Other Paper Machinery value:1344924,Machinery and appliances
+558,Print Production Machinery value:1286716,Machinery and appliances
+559,Industrial Printers value:4815601,Machinery and appliances
+560,Artificial Textile Machinery value:50000,Machinery and appliances
+561,Textile Fiber Machinery value:104022,Machinery and appliances
+562,Knitting Machines value:18462,Machinery and appliances
+563,Knitting Machine Accessories value:102481,Machinery and appliances
+564,Felt Machinery value:18462,Machinery and appliances
+565,Household Washing Machines value:74841,Machinery and appliances
+566,Textile Processing Machines value:155971,Machinery and appliances
+567,Sewing Machines value:221844,Machinery and appliances
+568,Leather Machinery value:52488,Machinery and appliances
+569,Casting Machines value:22328,Machinery and appliances
+570,Metal-Rolling Mills value:67759,Machinery and appliances
+571,Non-Mechanical Removal Machinery value:199374,Machinery and appliances
+572,Metalworking Transfer Machines value:98876,Machinery and appliances
+573,Metal Lathes value:91443,Machinery and appliances
+574,Drilling Machines value:74272,Machinery and appliances
+575,Metal Finishing Machines value:371342,Machinery and appliances
+576,Metalworking Machines value:181241,Machinery and appliances
+577,Forging Machines value:391131,Machinery and appliances
+578,Other Non-Metal Removal Machinery value:825244,Machinery and appliances
+579,Stone Working Machines value:11274,Machinery and appliances
+580,Woodworking machines value:353255,Machinery and appliances
+581,Metalworking Machine Parts value:857697,Machinery and appliances
+582,Motor-working Tools value:799500,Machinery and appliances
+583,Soldering and Welding Machinery value:535450,Machinery and appliances
+584,Calculators value:211509,Machinery and appliances
+585,Computers value:6199025,Machinery and appliances
+586,Other Office Machines value:102174,Machinery and appliances
+587,Office Machine Parts value:40630664,Machinery and appliances
+588,Stone Processing Machines value:2796761,Machinery and appliances
+589,Glass Working Machines value:19650,Machinery and appliances
+590 vending Machines value:32708,Machinery and appliances
+591,Rubberworking Machinery value:4488747,Machinery and appliances
+592,Tobacco Processing Machines value:754121,Machinery and appliances
+593,Machinery Having Individual Functions value:7547294,Machinery and appliances
+594,Metal Molds value:7701731,Machinery and appliances
+595 valves value:5175443,Machinery and appliances
+596,Ball Bearings value:468727,Machinery and appliances
+597,Transmissions value:1469708,Machinery and appliances
+598,Gaskets value:590937,Machinery and appliances
+599,Boat Propellers value:532995,Machinery and appliances
+600,Electric Motors value:7071900,Electrical machinery and equipment
+601,Electric Generating Sets value:306357,Electrical machinery and equipment
+602,Electric Motor Parts value:2864148,Electrical machinery and equipment
+603,Electrical Transformers value:14116783,Electrical machinery and equipment
+604,Electromagnets value:825125,Electrical machinery and equipment
+605,Batteries value:11525760,Electrical machinery and equipment
+606,Electric Batteries value:4300886,Electrical machinery and equipment
+607 vacuum Cleaners value:1287531,Electrical machinery and equipment
+608,Other Domestic Electric Housewares value:220696,Electrical machinery and equipment
+609,Hair Trimmers value:5692,Electrical machinery and equipment
+610,Electrical Ignitions value:829298,Electrical machinery and equipment
+611,Electrical Lighting and Signalling Equipment value:30073476,Electrical machinery and equipment
+612,Portable Lighting value:21400,Electrical machinery and equipment
+613,Electric Furnaces value:471409,Electrical machinery and equipment
+614,Electric Soldering Equipment value:4811958,Electrical machinery and equipment
+615,Electric Heaters value:1036085,Electrical machinery and equipment
+616,Telephones value:6847855,Electrical machinery and equipment
+617,Microphones and Headphones value:1703430,Electrical machinery and equipment
+618,Sound Recording Equipment value:23640,Electrical machinery and equipment
+619,Dictation Machines value:11301,Electrical machinery and equipment
+620 video Recording Equipment value:532952,Electrical machinery and equipment
+621,Audio and Video Recording Accessories value:4304,Electrical machinery and equipment
+622,Blank Audio Media value:2644138,Electrical machinery and equipment
+623,Sound Recordings value:16372,Electrical machinery and equipment
+624,Broadcasting Equipment value:9021391,Electrical machinery and equipment
+625,Navigation Equipment value:312777,Electrical machinery and equipment
+626,Radio Receivers value:120584,Electrical machinery and equipment
+627 video Displays value:3633098,Electrical machinery and equipment
+628,Broadcasting Accessories value:5761306,Electrical machinery and equipment
+629,Traffic Signals value:10110,Electrical machinery and equipment
+630,Audio Alarms value:1121168,Electrical machinery and equipment
+631,Electrical Capacitors value:1147077,Electrical machinery and equipment
+632,Electrical Resistors value:44394674,Electrical machinery and equipment
+633,Printed Circuit Boards value:13986760,Electrical machinery and equipment
+634,High-voltage Protection Equipment value:401750,Electrical machinery and equipment
+635,Low-voltage Protection Equipment value:186426436,Electrical machinery and equipment
+636,Electrical Control Boards value:12338384,Electrical machinery and equipment
+637,Electrical Power Accessories value:10602837,Electrical machinery and equipment
+638,Electric Filament value:373984,Electrical machinery and equipment
+639,Cathode Tubes value:52614,Electrical machinery and equipment
+640,Semiconductor Devices value:168168393,Electrical machinery and equipment
+641,Integrated Circuits value:56461102,Electrical machinery and equipment
+642,Other Electrical Machinery value:5886125,Electrical machinery and equipment
+643,Insulated Wire value:189867046,Electrical machinery and equipment
+644,Carbon-based Electronics value:58795,Electrical machinery and equipment
+645,Electrical Insulators value:26948,Electrical machinery and equipment
+646,Metal Insulating Fittings value:42685,Electrical machinery and equipment
+647,Electrical Parts value:45163118,Electrical machinery and equipment
+648,Other Locomotives value:113400,Railway and other rolling stock
+649,Railway Freight Cars value:66,Railway and other rolling stock
+650,Locomotive Parts value:140474,Railway and other rolling stock
+651,Railway Track Fixtures value:466,Railway and other rolling stock
+652,Shipping containers value:1358103,Railway and other rolling stock
+653,Tractors value:856246 vehicles and their parts
+654,Buses value:415788 vehicles and their parts
+655,Cars value:2235127 vehicles and their parts
+656,Delivery Trucks value:726691 vehicles and their parts
+657,Specialized Vehicles value:106203 vehicles and their parts
+658 vehicle Chassis value:150 vehicles and their parts
+659 vehicle Bodies value:79446 vehicles and their parts
+660 vehicle Parts value:16521884 vehicles and their parts
+661,Work Trucks value:61875 vehicles and their parts
+662,Motorcycles value:283189 vehicles and their parts
+663,Bicycles value:148671 vehicles and their parts
+664,Wheelchairs value:1358 vehicles and their parts
+665,Bi-Wheel Vehicle Parts value:423956 vehicles and their parts
+666,Baby Carriages value:29993 vehicles and their parts
+667,Trailers value:2533147 vehicles and their parts
+668,Non-powered Aircraft value:601,Aircraft spacecraft and parts thereof
+669,Planes Helicopters and/or Spacecraft value:555479,Aircraft spacecraft and parts thereof
+670,Aircraft Parts value:5417480,Aircraft spacecraft and parts thereof
+671,Parachutes value:990,Aircraft spacecraft and parts thereof
+672,Aircraft Launch Gear value:150,Aircraft spacecraft and parts thereof
+673,Passenger and Cargo Ships value:103202348,Ships boats and floating structures
+674,Fishing Ships value:23270,Ships boats and floating structures
+675,Recreational Boats value:3101929,Ships boats and floating structures
+676,Special Purpose Ships value:210685,Ships boats and floating structures
+677,Other Floating Structures value:207709,Ships boats and floating structures
+678,Scrap Vessels value:300000,Ships boats and floating structures
+679,Optical Fibers value:131837082,Instruments and apparatus
+680,Mirrors and Lenses value:247415,Instruments and apparatus
+681,Eyewear Frames value:279885,Instruments and apparatus
+682,Eyewear value:236985,Instruments and apparatus
+683,Binoculars and Telescopes value:40470,Instruments and apparatus
+684,Cameras value:832227,Instruments and apparatus
+685 video Cameras value:9887652,Instruments and apparatus
+686,Image Projectors value:706896,Instruments and apparatus
+687,Photocopiers value:1999335,Instruments and apparatus
+688,Photo Lab Equipment value:904305,Instruments and apparatus
+689,Microscopes value:334866,Instruments and apparatus
+690,Non-optical Microscopes value:3353,Instruments and apparatus
+691,LCDs value:203915,Instruments and apparatus
+692,Compasses value:33153,Instruments and apparatus
+693,Surveying Equipment value:1300984,Instruments and apparatus
+694,Balances value:35516,Instruments and apparatus
+695,Drafting Tools value:284384,Instruments and apparatus
+696,Medical Instruments value:3012418374,Instruments and apparatus
+697,Therapeutic Appliances value:55392206,Instruments and apparatus
+698,Breathing Appliances value:26492,Instruments and apparatus
+699,Orthopedic Appliances value:816882369,Instruments and apparatus
+700,X-Ray Equipment value:1275180,Instruments and apparatus
+701,Instructional Models value:1867046,Instruments and apparatus
+702,Tensile Testing Machines value:1575619,Instruments and apparatus
+703,Hydrometers value:3332308,Instruments and apparatus
+704,Gas and Liquid Flow Measuring Instruments value:5965128,Instruments and apparatus
+705,Chemical Analysis Instruments value:1293502,Instruments and apparatus
+706,Utility Meters value:214798,Instruments and apparatus
+707,Revolution Counters value:1002838,Instruments and apparatus
+708,Oscilloscopes value:15208780,Instruments and apparatus
+709,Other Measuring Instruments value:15885024,Instruments and apparatus
+710,Thermostats value:11920445,Instruments and apparatus
+711,Opto-Electric Instrument Parts value:7931135,Instruments and apparatus
+712,Precious Metal Watches value:52910,Clocks and watches
+713,Base Metal Watches value:457841,Clocks and watches
+714,Clocks with Watch Movements value:826,Clocks and watches
+715,Dashboard Clocks value:3403,Clocks and watches
+716,Other Clocks value:35994,Clocks and watches
+717,Time Recording Instruments value:15658,Clocks and watches
+718,Time Switches value:81623,Clocks and watches
+719,Watch Movements value:5229,Clocks and watches
+720,Clock Movements value:8,Clocks and watches
+721,Incomplete Movement Sets value:2390,Clocks and watches
+722,Watch Cases and Parts value:414,Clocks and watches
+723,Watch Straps value:2090,Clocks and watches
+724,Other Clocks and Watches value:13330,Clocks and watches
+725,Pianos value:11392,Musical instruments
+726,String Instruments value:21986,Musical instruments
+727,Wind Instruments value:2776,Musical instruments
+728,Percussion value:24578,Musical instruments
+729,Electric Musical Instruments value:17781,Musical instruments
+730,Other Musical Instruments value:3277,Musical instruments
+731,Musical Instrument Parts value:22024,Musical instruments
+732,Handguns value:602,Arms and ammunition
+733,Weapons Parts and Accessories value:176817,Arms and ammunition
+734,Seats value:5845209,Furniture
+735,Medical Furniture value:154836,Furniture
+736,Other Furniture value:24868017,Furniture
+737,Mattresses value:2113734,Furniture
+738,Light Fixtures value:8877621,Furniture
+739,Prefabricated Buildings value:729777,Furniture
+740,Models and Stuffed Animals value:1555714,Toys and games
+741 video and Card Games value:122668,Toys and games
+742,Party Decorations value:837203,Toys and games
+743,Sports Equipment value:19984949,Toys and games
+744,Fishing and Hunting Equipment value:10191317,Toys and games
+745,Fairground Amusements value:214032,Toys and games
+746,Worked Ivory and Bone value:16098,Miscellaneous manufactured articles
+747 vegetable and Mineral Carvings value:11200,Miscellaneous manufactured articles
+748,Brooms value:1102949,Miscellaneous manufactured articles
+749,Hand Sifters value:7904,Miscellaneous manufactured articles
+750,Travel Kits value:22299,Miscellaneous manufactured articles
+751,Buttons value:51503,Miscellaneous manufactured articles
+752,Zippers value:18768,Miscellaneous manufactured articles
+753,Pens value:375623,Miscellaneous manufactured articles
+754,Pencils and Crayons value:110590,Miscellaneous manufactured articles
+755,Chalkboards value:19759,Miscellaneous manufactured articles
+756,Rubber Stamps value:31357,Miscellaneous manufactured articles
+757,Ink Ribbons value:832063,Miscellaneous manufactured articles
+758,Lighters value:21860,Miscellaneous manufactured articles
+759,Smoking Pipes value:1025,Miscellaneous manufactured articles
+760,Combs value:27660,Miscellaneous manufactured articles
+761,Scent Sprays value:23519,Miscellaneous manufactured articles
+762 vacuum Flask value:8443,Miscellaneous manufactured articles
+763,Mannequins value:5740,Miscellaneous manufactured articles
