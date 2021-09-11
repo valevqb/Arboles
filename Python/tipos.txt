@@ -1,0 +1,44 @@
+ids,labels,parents
+Type Products,Colores,
+Animal Products,255.153.0,Type Products
+Vegetable Products,113.174.72,Type Products
+Animal and Vegetable Bi-Products,204.204.0,Type Products
+Foodstuffs,112.48.160,Type Products
+Mineral Products,117.113.113,Type Products
+Chemical Products,255.0.0,Type Products
+Plastics and Rubbers,0.112.192,Type Products
+Animal Hides,204.153.0,Type Products
+Wood Products,102.51.0,Type Products
+Paper Goods,217.217.217,Type Products
+Textiles,255.91.173,Type Products
+Footwear and Headwear,204.102.0,Type Products
+Stone And Glass,198.227.240,Type Products
+Precious Metals,0.176.240,Type Products
+Metals,0.55.102,Type Products
+Machines,204.204.255,Type Products
+Transportation,0.102.153,Type Products
+Instruments,255.217.102,Type Products
+Weapons,228.0.0,Type Products
+Miscellaneous,148.129.43,Type Products
+Arts and Antiques,188.0.130,Type Products
+1,Animal Products,Animal Products
+2,Vegetable Products,Vegetable Products
+3,Animal and Vegetable Bi-Products,Animal and Vegetable Bi-Products
+4,Foodstuffs,Foodstuffs
+5,Mineral Products,Mineral Products
+6,Chemical Products,Chemical Products
+7,Plastics and Rubbers,Plastics and Rubbers
+8,Animal Hides,Animal Hides
+9,Wood Products,Wood Products
+10,Paper Goods,Paper Goods
+11,Textiles,Textiles
+12,Footwear and Headwear,Footwear and Headwear
+13,Stone And Glass,Stone And Glass
+14,Precious Metals,Precious Metals
+15,Metals,Metals
+16,Machines,Machines
+17,Transportation,Transportation
+18,Instruments,Instruments
+19,Weapons,Weapons
+20,Miscellaneous,Miscellaneous
+21,Arts and Antiques,Arts and Antiques
