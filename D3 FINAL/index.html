@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style type="text/css"> button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block center;
+  font-size: 16px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+h1{
+    text-align: center;
+}
+</style>
+<body>
+    <center>
+        <h1 id="tittle">Seleccione el tipo de árbol que desea utilizar</h1>
+        <button id="SunburstB" class="button">Sunburst tree</button>
+        <button id="IceDI" class="button">Horizontal Ice Plot</button>
+        <button id="IceV" class="button">Vertical Ice Plot</button>
+        <h3 id="descripcion">Estos gráficos representan las exportaciones en CR para el año 2019</h3>
+    </center>
+<script type="module">
+
+import IcePlotArribaAbajo from "./IcePlot2.js";
+import IcePlotLados from "./IcePlot1.js";
+//import define from "./Radial.js";
+import Sunburst from "./Sunburst.js";
+import {Runtime, Library, Inspector} from "./runtime.js";
+
+IceDI.onclick = function(){
+    tittle.style.display = 'none';
+    descripcion.style.display = 'none';
+    IceDI.style.display = 'none';
+    IceV.style.display = 'none';
+    SunburstB.style.display = 'none';
+    const runtime = new Runtime();
+    const main = runtime.module(IcePlotLados, Inspector.into(document.body));
+}
+
+IceV.onclick = function(){
+    tittle.style.display = 'none';
+    descripcion.style.display = 'none';
+    IceDI.style.display = 'none';
+    IceV.style.display = 'none';
+    SunburstB.style.display = 'none';
+    const runtime = new Runtime();
+    const main = runtime.module(IcePlotArribaAbajo, Inspector.into(document.body));
+}
+
+SunburstB.onclick = function(){
+    tittle.style.display = 'none';
+    descripcion.style.display = 'none';
+    IceDI.style.display = 'none';
+    IceV.style.display = 'none';
+    SunburstB.style.display = 'none';
+    const runtime = new Runtime();
+    const main = runtime.module(Sunburst, Inspector.into(document.body));
+}
+</script>
